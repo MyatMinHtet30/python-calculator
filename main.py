@@ -1,9 +1,4 @@
 # Add your functions here!
-def multiply (num1, num2) :
-    result = num1 * num2
-    print("The multiplication result is: ", reult)
-
-
 def add(num1,num2):
     result =num1+num2
     print("The result is : "+result)
@@ -11,6 +6,10 @@ def add(num1,num2):
 def substract(num1, num2):
     result = num1 - num2
     print("The result of substract is: ", result)
+
+def multiply (num1, num2) :
+    result = num1 * num2
+    print("The multiplication result is: ", reult)
     
 def main():
     print("Enter the operation you want to perform: ")
